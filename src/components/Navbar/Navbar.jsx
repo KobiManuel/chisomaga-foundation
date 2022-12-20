@@ -8,7 +8,7 @@ import {
   FaGoogle,
 } from "react-icons/fa";
 import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai"
-import Button from "../Button/Button";
+import Btn from "../Button/Btn";
 
 const Navbar = () => {
    /* // making navbar sticky on scroll
@@ -42,7 +42,7 @@ const Navbar = () => {
             <FaGoogle className="  max-[883px]:hidden w-9 transition ease-in-out  hover:-scale-x-100 hover:text-[var(--secondary)]"/>
           </div>
           <div className=" bg-gray-50 w-70 -translate-y-5 mt-0.4 w-fit h-fit">
-          <Button type="button">Donate Now</Button>
+          <Btn type="button">Donate Now</Btn>
           </div>
         </div>
       </div>
