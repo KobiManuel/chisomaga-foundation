@@ -125,7 +125,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a></a>
+              <a href="/"> </a>
             </li>
           </ul>
           <div onClick={navHandler} className="block md:hidden pr-3">
