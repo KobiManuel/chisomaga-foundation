@@ -14,7 +14,7 @@ const SimpleSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 7000
+        autoplaySpeed: 4000
       };
   return (
     <Slider {...settings} className=" overflow-hidden">
