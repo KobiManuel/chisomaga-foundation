@@ -3,7 +3,7 @@
     padding: 0 2rem;
     color: white;
     text-align: center;
-    background: linear-gradient(to right, rgb(225, 96, 32) 50%, var(--secondary) 50%);
+    background: linear-gradient(to right, var(--blue) 50%, var(--secondary) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;

@@ -17,7 +17,7 @@ const SimpleSlider = () => {
         autoplaySpeed: 4000
       };
   return (
-    <Slider {...settings} className=" overflow-hidden">
+    <Slider {...settings} className=" overflow-hidden h-[547.3px]">
         <img src={Hero_Img} alt='/' className=' w-full' />
         <img src={Hero2} alt='/' className=' w-full' />
         <img src={Hero3} alt='/' className=' w-full' />

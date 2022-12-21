@@ -11,13 +11,12 @@
 :root {
  --primary: #f37c03;
  --secondary: #262626;
+ --blue: #00154f;
 }
 body{
     /*color: #333;*/
     font-family: "Tomato";
     color: #262626;
-    font-size: 16px;
-    line-height: 1.8;
 
 }
 .primary-color {
