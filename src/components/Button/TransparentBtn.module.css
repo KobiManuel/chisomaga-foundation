@@ -1,0 +1,16 @@
+.button{
+    color: white;
+    border: 3px solid var(--primary);
+    background: linear-gradient(to right, var(--primary) 50%, transparent 50%) !important;
+  background-size: 200% 100% !important;
+  background-position: right bottom !important;
+  transition: all .5s ease-out !important;
+}
+.button:hover{
+    background-position: left bottom !important;
+}
+@media screen and (max-width: 395px) {
+    .button {
+        display: none !important;
+    }
+}

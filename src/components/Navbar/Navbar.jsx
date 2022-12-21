@@ -6,7 +6,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Btn from "../Button/Btn";
 
 const Navbar = () => {
-  //making navbar sticky on scroll
+    //making navbar sticky on scroll
   const [sticky, setSticky] = useState(false);
   const stickyScrollHandler = () => {
     if (window.scrollY >= 200) {
@@ -57,7 +57,7 @@ const Navbar = () => {
               alt="/"
             />
           </div>
-          <ul className="hidden md:flex gap-7 text-sm text-[var(--blue)] font-medium">
+          <ul id="unorderedList" className="hidden md:flex gap-7 text-sm text-[var(--blue)] font-medium">
             <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="hero"
