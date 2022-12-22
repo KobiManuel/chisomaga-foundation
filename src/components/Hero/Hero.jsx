@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="max-h-[820px] body-font font-TomatoFont relative"
+      className="max-h-[820px] body-font font-TomatoFont relative max-[380px]:h-[250px]"
     >
          <div className=" absolute top-[25%] ml-20 max-[786px]:ml-[5px] max-w-[1100px] max-[712px]:top-[10%] flex flex-col z-40 hero_overlay leading-[5rem]  max-[395px]:text-center max-[395px]:w-[100%] max-[395px]:items-center max-[395px]:justify-center">
         <header className=" max-[330px]:hidden">

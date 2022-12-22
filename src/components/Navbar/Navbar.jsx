@@ -7,7 +7,7 @@ import Btn from "../Button/Btn";
 
 const Navbar = () => {
     //making navbar sticky on scroll
-  const [sticky, setSticky] = useState(false);
+  /*const [sticky, setSticky] = useState(false);
   const stickyScrollHandler = () => {
     if (window.scrollY >= 200) {
       setSticky(true);
@@ -15,7 +15,7 @@ const Navbar = () => {
       setSticky(false);
     }
   };
-  window.addEventListener("scroll", stickyScrollHandler);
+  window.addEventListener("scroll", stickyScrollHandler)*/
   // setting mobile nav
   const [nav, setNav] = useState(false);
 
@@ -45,9 +45,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`bg-white transition-all delay-500 ease-in-out w-full overflow-hidden ${
-          sticky && " fixed top-0 z-40"
-        }`}
+        className='bg-white transition-all delay-500 ease-in-out w-full overflow-hidden'
       >
         <div className="md:max-w-[1100px] flex bg-white items-center justify-between h-24 mx-auto">
           <div className="px-2">
