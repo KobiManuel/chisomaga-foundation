@@ -11,7 +11,7 @@ const WelcomeSection = () => {
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat"
     }}>
-      <section className=' flex md:flex-wrap flex-col md:gap-4 gap-4 justify-center items-center md:flex-row px-4 body-font font-TomatoFont max-w[1100px] mx-auto'>
+      <section className=' flex md:flex-wrap flex-col md:gap-6 gap-4 justify-center items-center md:flex-row px-4 body-font font-TomatoFont max-w[1100px] mx-auto'>
         <div className=' w-[540px] max-[1040px]:w-[80%]  sm:h-[380px]'>
          <header >
           <h3 className='relative pb-[24px] text-4xl text-white font-medium w-[80%] text-left before:absolute before:content-[" "] before:bottom-0 before:left-0 before:w-[64px] before:h-[4px] before:rounded-[2px] before:bg-[var(--primary)] '>Welcome to our Charity</h3>
