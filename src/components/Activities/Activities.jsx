@@ -8,7 +8,7 @@ import ActivityCard from '../Cards/ActivityCard'
 
 const Activities = () => {
   return (
-    <Wrapper className=' !bg-[#f1f6f9]'>
+    <Wrapper bg_color=' !bg-[#f1f6f9]'>
        <header id='about' className='body-font font-TomatoFont w-[570px] max-[580px]:w-[80%] h-[270px] mx-auto text-center'>
         <h5 className='text-[var(--primary)] text-lg leading-10'>What we are doing</h5>
         <h2 className=' capitalize text-[var(--blue)] max-[580px]:text-[30px] text-5xl leading-[1.4]'>We are on a mission to help the helpless</h2>
