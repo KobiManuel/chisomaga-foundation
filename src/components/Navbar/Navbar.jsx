@@ -122,7 +122,7 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li>
+            <li className="hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <a href="/"> </a>
             </li>
           </ul>

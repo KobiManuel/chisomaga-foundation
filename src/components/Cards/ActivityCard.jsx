@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../Button/Button.module.css'
+import styles from './ActivityCard.module.css'
 
-const ActivityCard = ({children}) => {
+const ActivityCard = ({children, className}) => {
   return (
-    <div className={`p-[40px] w-[80%]  md:h-[320px] md:w-[351.38px] rounded-[24px] bg-[var(--primary)] flex flex-col items-center max-[999px]:py-[7%] ${styles.button}`}>
+    <div className={`p-[40px] w-[80%] justify-center  md:h-[400px] md:w-[351.38px] rounded-[24px]  flex flex-col items-center ${styles.card} ${className}` }>
       {children}
     </div>
   )

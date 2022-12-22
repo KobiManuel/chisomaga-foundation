@@ -1,0 +1,9 @@
+.card {
+    background: linear-gradient(to right, var(--blue) 50%, var(--primary) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  .card:hover{
+      background-position: left bottom;
+  }
