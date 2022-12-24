@@ -2,7 +2,7 @@ import React from 'react'
 
 const Wrapper = (props) => {
   return (
-    <div className={`py-[96px] ${props.bg_color}`} style={props.style}>{props.children}</div>
+    <div id={props.id} className={`py-[96px] ${props.bg_color}`} style={props.style}>{props.children}</div>
   )
 }
 

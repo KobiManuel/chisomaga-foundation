@@ -13,7 +13,7 @@ const Activities = () => {
         <h5 className='text-[var(--primary)] text-lg leading-10'>What we are doing</h5>
         <h2 className=' capitalize text-[var(--blue)] max-[580px]:text-[30px] text-5xl leading-[1.4]'>We are on a mission to help the helpless</h2>
        </header>
-        <div className='body-font font-TomatoFont max-w-[1100px] mx-auto flex flex-col md:flex-row justify-center items-center gap-7 md:px-6 cursor-pointer'>
+        <div className='body-font font-TomatoFont max-w-[1100px] mx-auto flex flex-col lg:flex-row max-[1040px]:flex-col justify-center items-center gap-7 md:px-6 cursor-pointer'>
         <ActivityCard>
         <figure className='mb-4 p-3 rounded-full bg-white'>
        <TbHeartHandshake  size={70} color="var(--primary)"/>
@@ -21,18 +21,18 @@ const Activities = () => {
        <header>
         <h3 className=' text-white text-center text-[24px] font-semibold'>Become a Sponsor</h3>
        </header>
-       <span className='max-[1040px]:hidden'>
+       <span className='max-[389px]:hidden'>
         <p className='text-white text-center font-extralight'>Become a Sponsor by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
         </ActivityCard>
-        <div className='!bg-white !border-solid !border-2 p-[40px] w-[80%] justify-center  md:h-[400px] md:w-[351.38px] rounded-[24px]  flex flex-col items-center max-[999px]:py-[7%]'>
+        <div className='!bg-white !border-solid !border-2 p-[40px] w-[80%] justify-center  lg:h-[400px] lg:md:w-[351.38px] max-[1040px]:w-[80%] max-[1040px]:h-[300px] rounded-[24px]  flex flex-col items-center max-[999px]:py-[7%]'>
         <figure className='mb-4 p-3 rounded-full bg-[var(--blue)]'>
        <MdOutlineVolunteerActivism  size={70} color="white"/>
        </figure>
        <header>
         <h3 className='text-[var(--blue)] text-center text-[24px] font-semibold'>Become a Volunteer</h3>
        </header>
-       <span className='max-[1040px]:hidden'>
+       <span className='max-[389px]:hidden'>
         <p className='text-[var(--blue)] text-center font-extralight'>Become a Volunteer by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
        </div>
@@ -43,7 +43,7 @@ const Activities = () => {
        <header>
         <h3 className=' text-white text-center text-[24px] font-semibold'>Become a Team Rep</h3>
        </header>
-       <span className='max-[1040px]:hidden'>
+       <span className='max-[389px]:hidden'>
         <p className='text-white text-center font-extralight'>Become a Team Rep by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
         </ActivityCard>

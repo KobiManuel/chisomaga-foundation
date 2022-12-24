@@ -3,7 +3,7 @@ import styles from './ActivityCard.module.css'
 
 const ActivityCard = ({children, className}) => {
   return (
-    <div className={`p-[40px] w-[80%] justify-center  md:h-[400px] md:w-[351.38px] rounded-[24px]  flex flex-col items-center ${styles.card} ${className}` }>
+    <div className={`p-[40px] w-[80%] justify-center  lg:h-[400px] lg:w-[351.38px] max-[1040px]:w-[80%] max-[1040px]:h-[300px] rounded-[24px]  flex flex-col items-center ${styles.card} ${className}` }>
       {children}
     </div>
   )

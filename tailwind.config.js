@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         TomatoFont: ['TomatoGrotesk', 'sans-serif'],
      },
+     transitionProperty: {
+      'width': 'width'
+     },
     },
   },
   plugins: [],
