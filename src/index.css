@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-next {
+/*.slick-next {
   background: url('https://w7.pngwing.com/pngs/503/339/png-transparent-arrow-button-circular-arrows-elements-angle-text-orange.png') center center no-repeat!important;
   border-radius: 60%!important;
   width: 50px!important;
@@ -12,6 +12,26 @@
   .slick-next::before {
     display: none;
   }
+
+*/
+.slick-next{
+  display: none !important;
+}
+.slick-next::before {
+  display: none !important;
+}
+.slick-next::after {
+  display: none !important;
+}
+.slick-prev{
+  display: none !important;
+}
+.slick-prev::after {
+  display: none !important;
+}
+.slick-prev::before {
+  display: none !important;
+}
 
 *{
     margin: 0;

@@ -5,14 +5,14 @@ import Button from '../Button/Button'
 import styles from '../Button/TransparentBtn.module.css'
 const ChangeHumanitySection = () => {
   return (
-    <Wrapper>
+    <Wrapper id="gallery">
         <div className='body-font font-TomatoFont max-w-[80%] mx-auto px-4 flex justify-between items-center max-[665px]:justify-center gap-3' style={{
       backgroundImage: 'url('+welcome_bg+')',
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center center",
       backgroundAttachment: "fixed",
-      width: "80%",
+      maxWidth: "80%",
       height: "265px"
     }}>
      <div className=' max-w-[428.33px] max-h-[105px] pl-8 max-[665px]:pl-0'>

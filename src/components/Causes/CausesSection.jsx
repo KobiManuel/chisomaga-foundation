@@ -27,7 +27,7 @@ const CausesSection = () => {
         }
       },
       {
-        breakpoint: 674,
+        breakpoint: 799,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -44,7 +44,7 @@ const CausesSection = () => {
         <h5 className='text-[var(--primary)] text-lg leading-10'>Our Causes You Can See</h5>
         <h2 className=' capitalize text-[var(--blue)] max-[580px]:text-[30px] text-5xl leading-[1.4]'>Explore the latest causes we've worked on</h2>
        </header>
-       <Slider  {...settings} className=' pl-6 flex flex-wrap gap-6 justify-center items-center max-w-[1100px] mx-auto'>
+       <Slider  {...settings} className=' overflow-hidden px-4  flex flex-wrap justify-between items-center max-w-[1100px] mx-auto'>
         {causesInfo.map(
           ({ image, subtitle, progress, raisedAmount, goal }) => (
             <CausesCard
