@@ -12,7 +12,7 @@ const ChangeHumanitySection = () => {
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center center",
       backgroundAttachment: "fixed",
-      maxWidth: "80%",
+      maxWidth: "85%",
       height: "265px"
     }}>
      <div className=' max-w-[428.33px] max-h-[105px] pl-8 max-[665px]:pl-0'>
