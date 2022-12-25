@@ -17,7 +17,7 @@ const TestimonialsCard = ({subtitle, image, personsName, occupation}) => {
             />
             <div className=" pl-[10px]">
                 <p className=" capitalize text-[var(--blue)] font-semibold ">{personsName}</p>
-                <p className=" capitalize  text-gray-500">{occupation}</p>
+                <p className=" capitalize  text-gray-400 text-xs">{occupation}</p>
             </div>
         </div>
         </div>

@@ -25,7 +25,7 @@ const Activities = () => {
         <p className='text-white text-center font-extralight'>Become a Sponsor by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
         </ActivityCard>
-        <div className='!bg-white !border-solid !border-2 p-[40px] w-[80%] justify-center  lg:h-[400px] lg:md:w-[351.38px] max-[1040px]:w-[80%] max-[1040px]:h-[300px] rounded-[24px]  flex flex-col items-center max-[999px]:py-[7%]'>
+        <div className=' shadow-2xl !bg-white p-[40px] w-[80%] justify-center  lg:h-[400px] lg:md:w-[351.38px] max-[1040px]:w-[80%] max-[1040px]:h-[300px] rounded-[24px]  flex flex-col items-center max-[999px]:py-[7%]'>
         <figure className='mb-4 p-3 rounded-full bg-[var(--blue)]'>
        <MdOutlineVolunteerActivism  size={70} color="white"/>
        </figure>

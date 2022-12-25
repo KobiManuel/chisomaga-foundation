@@ -32,7 +32,7 @@ export const TestimonialsInfo = [{
     subtitle: " My Camera got stolen and i needed a new one for my photgraphy business. Chisomaga Foundation helped me with a new camera and upgraded my phone. I am grateful!",
     image: fifthImage,
     personsName: "Yusuf sani",
-    occupation: " Digitalist",
+    occupation: " photographer",
   },
   {
     subtitle: " I needed money for my shop rent and to stock up my shop for easter sales. Chisomaga Foundation changed my story by paying for my rent and goods. Thank you!!!!",

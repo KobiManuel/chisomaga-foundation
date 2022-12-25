@@ -33,7 +33,7 @@ useEffect(() => {
       }, 3000);
    }, [progress]);
   return (
-    <div className='body-font font-TomatoFont flex flex-col gap-3 justify-center items-center w-[350px] h-[440.96px] max-[799px]:w-[100%] bg-white max-[382px]:h-[510px] max-[253px]:mt-12 mx-auto' >
+    <div className=' shadow-2xl body-font font-TomatoFont flex flex-col gap-3 justify-center items-center w-[350px] h-[440.96px] max-[799px]:w-[100%] bg-white max-[382px]:h-[510px] max-[253px]:mt-12 mx-auto' >
         <figure className='w-[80%] h-[210.66px] max-[783px]:w-[80%] max-[783px]:h-[200px] max-[490px]:w-[80%]' >
             <img src={image} alt="/" className='w-[100%] h-[210.66px] max-[799px]:w-[100%] max-[799px]:object-cover max-[783px]:h-[200px]' />
         </figure>

@@ -2,6 +2,7 @@ import React from "react";
 import Activities from "./components/Activities/Activities";
 import CausesSection from "./components/Causes/CausesSection";
 import ChangeHumanitySection from "./components/ChangeHumanity/ChangeHumanitySection";
+import CountdownSection from "./components/CountdownSection/CountdownSection";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Testimonials from "./components/Testimonials/Testimonials";
@@ -16,6 +17,7 @@ function App() {
       <CausesSection />
       <ChangeHumanitySection />
       <Testimonials />
+      <CountdownSection />
     </div>
   );
 }
