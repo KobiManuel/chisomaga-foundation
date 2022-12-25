@@ -39,7 +39,7 @@ const Testimonials = () => {
         )}
       </div>
       <div className=" mt-2 mx-auto w-fit">
-      <Button className=" text-white" onClick={showMoreOrLessHandler}>{visible >= 6 ? "Show Less" : "Show More" }</Button>
+      <Button className=" text-white body-font font-TomatoFont !shadow-2xl !z-20" onClick={showMoreOrLessHandler}>{visible >= 6 ? "Show Less" : "Show More" }</Button>
       </div>
     </Wrapper>
   );

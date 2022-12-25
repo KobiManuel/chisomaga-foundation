@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
         <div className=" flex gap-5 mt-[4rem] max-[532px]:mt-0">
-        <Button type="button" className=' text-white'>Donate now</Button>
+        <Button type="button" className=' text-white !shadow-2xl'>Donate now</Button>
          <Button type="button" className={styles.button}>Read More</Button>
         </div>
       </div>
