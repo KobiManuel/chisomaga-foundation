@@ -13,7 +13,7 @@ const Testimonials = () => {
     }
   }
   return (
-    <Wrapper bg_color=" !bg-[#f1f6f9]">
+    <Wrapper id="gallery" bg_color=" !bg-[#f1f6f9]">
       <header
         id="about"
         className="body-font font-TomatoFont w-[570px] max-[580px]:w-[80%] h-[270px] mx-auto text-center"
@@ -25,7 +25,7 @@ const Testimonials = () => {
           Feedback from people we've helped
         </h2>
       </header>
-      <div className=" flex flex-row flex-wrap justify-center items-center w-[100%] max-w-[1100px] mx-auto max-[675px]:flex-col">
+      <div className=" transition-all delay-300 duration-500 ease-out flex flex-row flex-wrap justify-center items-center w-[100%] max-w-[1100px] mx-auto max-[675px]:flex-col">
         {TestimonialsInfo.slice(0, visible).map(
           ({ subtitle, image, personsName, occupation }) => (
             <TestimonialsCard
@@ -39,7 +39,7 @@ const Testimonials = () => {
         )}
       </div>
       <div className=" mt-2 mx-auto w-fit">
-      <Button className=" text-white body-font font-TomatoFont !shadow-2xl !z-20" onClick={showMoreOrLessHandler}>{visible >= 6 ? "Show Less" : "Show More" }</Button>
+      <Button className=" text-white body-font font-TomatoFont !shadow-2xl !z-20" onClick={showMoreOrLessHandler}>{visible === TestimonialsInfo.length ? "Show Less" : "Show More" }</Button>
       </div>
     </Wrapper>
   );

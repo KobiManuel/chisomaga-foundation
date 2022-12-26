@@ -5,7 +5,7 @@ import Button from '../Button/Button'
 import styles from '../Button/TransparentBtn.module.css'
 const ChangeHumanitySection = () => {
   return (
-    <Wrapper id="gallery">
+    <Wrapper>
         <div className='body-font font-TomatoFont max-w-[80%] mx-auto px-4 flex justify-between items-center max-[665px]:justify-center gap-3' style={{
       backgroundImage: 'url('+welcome_bg+')',
       backgroundSize: "cover",

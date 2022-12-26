@@ -21,7 +21,7 @@ const Activities = () => {
        <header>
         <h3 className=' text-white text-center text-[24px] font-semibold'>Become a Sponsor</h3>
        </header>
-       <span className='max-[389px]:hidden'>
+       <span className='max-[405px]:hidden'>
         <p className='text-white text-center font-extralight'>Become a Sponsor by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
         </ActivityCard>
@@ -32,7 +32,7 @@ const Activities = () => {
        <header>
         <h3 className='text-[var(--blue)] text-center text-[24px] font-semibold'>Become a Volunteer</h3>
        </header>
-       <span className='max-[389px]:hidden'>
+       <span className='max-[405px]:hidden'>
         <p className='text-[var(--blue)] text-center font-extralight'>Become a Volunteer by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
        </div>
@@ -43,7 +43,7 @@ const Activities = () => {
        <header>
         <h3 className=' text-white text-center text-[24px] font-semibold'>Become a Team Rep</h3>
        </header>
-       <span className='max-[389px]:hidden'>
+       <span className='max-[405px]:hidden'>
         <p className='text-white text-center font-extralight'>Become a Team Rep by donating and supporting our causes with your money and presence and ensure that we reach as many people as possible</p>
        </span>
         </ActivityCard>

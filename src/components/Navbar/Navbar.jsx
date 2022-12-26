@@ -97,7 +97,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={500}
               >
-                Gallery
+                People
               </Link>
             </li>
             <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
@@ -128,14 +128,14 @@ const Navbar = () => {
           </ul>
           <div onClick={navHandler} className="block md:hidden pr-3">
             {!nav ? (
-              <AiOutlineClose size={20} className=" cursor-pointer" />
+               <AiOutlineMenu size={20} className=" cursor-pointer" />
             ) : (
-              <AiOutlineMenu size={20} className=" cursor-pointer" />
+              <AiOutlineClose size={20} className=" cursor-pointer" />
             )}
           </div>
           <div
             className={
-              !nav
+              nav
                 ? "md:hidden z-50 fixed left-0 top-0 w-[60%] h-full border-r border-r-slate-200 bg-white ease-in-out duration-500"
                 : "z-50 md:hidden fixed left-[-100%]"
             }
@@ -185,7 +185,7 @@ const Navbar = () => {
                   offset={-100}
                   duration={500}
                 >
-                  Gallery
+                  People
                 </Link>
               </li>
               <li className="hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
