@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className=" w-fit mx-auto">
         <ul id="unorderedList" className="flex max-[454px]:flex-wrap items-center justify-center px-6  gap-7 text-sm font-extralight">
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-[var(--primary)] border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="hero"
                 spy={true}
@@ -33,7 +33,7 @@ const Footer = () => {
                 Home
               </Link>
             </li>
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="about"
                 spy={true}
@@ -44,7 +44,7 @@ const Footer = () => {
                 About Us
               </Link>
             </li>
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="causes"
                 spy={true}
@@ -55,7 +55,7 @@ const Footer = () => {
                 Causes
               </Link>
             </li>
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="gallery"
                 spy={true}
@@ -66,7 +66,7 @@ const Footer = () => {
                 People
               </Link>
             </li>
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="news"
                 spy={true}
@@ -77,7 +77,7 @@ const Footer = () => {
                 News
               </Link>
             </li>
-            <li className="hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
+            <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="contact"
                 spy={true}
@@ -90,7 +90,7 @@ const Footer = () => {
             </li>
            </ul>
         </div>
-        <div className="flex gap-6 items-start cursor-pointer text-white w-fit mx-auto py-6 max-[231px]:hidden">
+        <div className=" flex gap-6 items-start cursor-pointer text-white w-fit mx-auto py-6 max-[231px]:hidden">
             <FaTwitter size={20} className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]" />
             <FaFacebook size={20}  className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]" />
             <FaInstagram size={20}  className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]" />
