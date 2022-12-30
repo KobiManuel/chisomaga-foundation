@@ -1,9 +1,9 @@
 import React from 'react'
-import Wrapper from '../UI/Wrapper'
+import Wrapper from '../../../UI/Wrapper'
 import {TbHeartHandshake} from 'react-icons/tb'
 import {MdOutlineVolunteerActivism} from 'react-icons/md'
 import {GiTakeMyMoney} from 'react-icons/gi'
-import ActivityCard from '../Cards/ActivityCard'
+import ActivityCard from '../../../Cards/ActivityCard'
 
 
 const Activities = () => {

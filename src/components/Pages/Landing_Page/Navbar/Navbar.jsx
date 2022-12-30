@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-scroll";
-import Logo from "../../assets/chisomaga_transparent.png";
+import Logo from "../../../../assets/chisomaga_transparent.png";
 import { FaTwitter, FaFacebook, FaInstagram, FaGoogle } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Btn from "../Button/Btn";

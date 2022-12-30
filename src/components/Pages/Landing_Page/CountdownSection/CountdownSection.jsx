@@ -1,5 +1,5 @@
 import React from 'react'
-import countdown_bg from '../../assets/hero6.jpg'
+import countdown_bg from '../../../../assets/hero6.jpg'
 import CountUp from 'react-countup';
 const CountdownSection = () => {
       return (

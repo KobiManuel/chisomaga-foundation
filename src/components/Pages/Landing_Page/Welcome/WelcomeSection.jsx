@@ -1,7 +1,7 @@
 import React from 'react'
-import Wrapper from '../UI/Wrapper'
-import welcome_bg from '../../assets/Welcome.jpg'
-import welcome_img from '../../assets/welcome_img.jpg'
+import Wrapper from '../../../UI/Wrapper'
+import welcome_bg from '../../../../assets/Welcome.jpg'
+import welcome_img from '../../../../assets/welcome_img.jpg'
 import Button from '../Button/Button'
 
 const WelcomeSection = () => {

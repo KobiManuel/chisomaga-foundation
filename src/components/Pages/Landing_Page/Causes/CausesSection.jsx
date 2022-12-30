@@ -1,7 +1,7 @@
 import React from 'react'
-import CausesCard from '../Cards/CausesCard'
-import Wrapper from '../UI/Wrapper'
-import { causesInfo } from "../ComponentData/CausesCard_data";
+import CausesCard from '../../../Cards/CausesCard'
+import Wrapper from '../../../UI/Wrapper'
+import { causesInfo } from "../../../ComponentData/CausesCard_data";
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

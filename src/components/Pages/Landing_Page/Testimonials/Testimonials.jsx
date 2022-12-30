@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Wrapper from "../UI/Wrapper";
-import { TestimonialsInfo } from "../ComponentData/TestimonialsData";
-import TestimonialsCard from "../Cards/TestimonialsCard";
+import Wrapper from "../../../UI/Wrapper";
+import { TestimonialsInfo } from "../../../ComponentData/TestimonialsData";
+import TestimonialsCard from "../../../Cards/TestimonialsCard";
 import Button from "../Button/Button";
 
 const Testimonials = () => {

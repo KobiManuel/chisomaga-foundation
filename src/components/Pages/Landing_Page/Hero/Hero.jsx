@@ -1,5 +1,5 @@
 import { React} from "react";
-import SimpleSlider from "../UI/SimpleSlider";
+import SimpleSlider from "../../../UI/SimpleSlider";
 import Button from "../Button/Button";
 import styles from '../Button/TransparentBtn.module.css'
 import Typed from 'react-typed';
@@ -23,8 +23,8 @@ const Hero = () => {
           </p>
         </div>
         <div className=" flex gap-5 mt-[4rem] max-[532px]:mt-0">
-        <Button type="button" className=' text-white !shadow-2xl'>Donate now</Button>
-         <Button type="button" className={styles.button}>Read More</Button>
+        <Button type="button" className=' text-white !shadow-2xl max-[395px]:!hidden'>Donate now</Button>
+         <Button type="button" className={styles.button}>Apply for Grant</Button>
         </div>
       </div>
       <SimpleSlider />

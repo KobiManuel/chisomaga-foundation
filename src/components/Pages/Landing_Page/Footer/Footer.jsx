@@ -1,7 +1,7 @@
 import React from "react";
-import Wrapper from "../UI/Wrapper";
+import Wrapper from "../../../UI/Wrapper";
 import { Link } from "react-scroll";
-import footer_bg from '../../assets/footer_bg.png.webp';
+import footer_bg from '../../../../assets/footer_bg.png.webp';
 import { FaTwitter, FaFacebook, FaInstagram, FaGoogle } from "react-icons/fa";
 
 const Footer = () => {
@@ -18,10 +18,10 @@ const Footer = () => {
   }}>
       <div id="contact" className=" body-font font-TomatoFont text-white">
         <div className=" text-2xl font-semibold w-fit mx-auto">
-          <p className=" after:content-['❤'] after:text-[var(--primary)] after:text-[19px] px-6 text-center">Chisomaga Foundation</p>
+          <p className=" after:content-['❤'] after:text-[var(--primary)] after:text-[19px] after:pl-3 px-6 text-center">The Chisomaga Foundation</p>
         </div>
         <div className=" w-fit mx-auto">
-        <ul id="unorderedList" className="flex max-[454px]:flex-wrap items-center justify-center px-6  gap-7 text-sm font-extralight">
+        <ul id="unorderedList" className="flex max-[454px]:flex-wrap items-center justify-center px-6  gap-11 text-sm font-extralight">
             <li className="border-b-[var(--primary)] border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
               <Link
                 to="hero"
@@ -41,7 +41,7 @@ const Footer = () => {
                 offset={-100}
                 duration={500}
               >
-                About Us
+                About
               </Link>
             </li>
             <li className="border-b-transparent border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out duration-500 delay-150">
