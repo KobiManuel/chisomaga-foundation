@@ -307,4 +307,5 @@ export default Footer;
             <FaGoogle size={20}  className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]" />
           </div>
       </div>
+      #fff8a1
     </Wrapper> */
