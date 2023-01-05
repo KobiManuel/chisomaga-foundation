@@ -196,7 +196,7 @@ const Footer = () => {
           <div className=" px-4 lg:mt-0 md:mt-9 max-[768px]:mt-9">
           <h4 className=" text-white text-xl mb-[30px]">Instagram</h4>
           <div className=" w-full h-[200px]">
-          <a className=" block" href="https://www.instagram.com/chisomagafoundation/" target="_blank">
+          <a className=" block" href="https://www.instagram.com/chisomagafoundation/" target="_blank" rel="noreferrer">
             <div className=" w-full h-[200px]" style={{
       backgroundImage: 'url('+instagram+')',
       backgroundSize: "cover",

@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "responsiveness",
-        "New Component"
+        "New Component",
+        "User-interface"
     ]
 }
