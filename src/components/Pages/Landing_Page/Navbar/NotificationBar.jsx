@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaTwitter, FaFacebook, FaInstagram, FaGoogle } from "react-icons/fa";
+import Btn from "../Button/Btn";
 
 const NotificationBar = () => {
   return (
