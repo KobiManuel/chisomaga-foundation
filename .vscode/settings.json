@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "responsiveness",
         "New Component",
-        "User-interface"
+        "User-interface",
+        "New folder"
     ]
 }
