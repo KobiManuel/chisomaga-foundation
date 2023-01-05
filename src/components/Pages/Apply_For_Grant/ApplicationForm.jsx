@@ -5,7 +5,6 @@ import Navbar from '../Landing_Page/Navbar/Navbar'
 const ApplicationForm = () => {
   return (
     <>
-      <Navbar /> 
        <Wrapper>
         
        </Wrapper>
