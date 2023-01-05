@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { Link } from "react-scroll";
 import Logo from "../../../../assets/chisomaga_transparent.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import NotificationBar from "./NotificationBar";
 
 const Navbar = () => {
     //making navbar sticky on scroll
@@ -23,6 +24,7 @@ const Navbar = () => {
   };
   return (
     <div className="body-font font-TomatoFont overflow-auto transition duration-500 ease-in">
+      <NotificationBar />
       <div
         className='bg-white transition-all delay-500 ease-in-out w-full overflow-hidden'
       >
