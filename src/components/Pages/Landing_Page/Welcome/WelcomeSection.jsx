@@ -25,7 +25,7 @@ const WelcomeSection = () => {
          </Button>
          </div>
          </div>
-         <div className=' w-[540px] max-[1040px]:w-[80%]  sm:h-[500px] max-[639px]:w-[80%] max-[639px]:h-[350px]  flex justify-center items-center'>
+         <div className=' w-[540px] max-[1040px]:w-[80%]  sm:h-[500px] max-[639px]:w-[80%] max-[639px]:h-[350px] max-[665px]:mt-9  flex justify-center items-center'>
           <img src={welcome_img} alt="/"  style={{
             width: '100%',
             height: '100%',
