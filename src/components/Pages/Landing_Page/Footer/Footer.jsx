@@ -33,11 +33,11 @@ const Footer = () => {
       <footer id="contact" className=" max-w-[1100px] mx-auto body-font font-TomatoFont ">
         <header className=" lg:w-full max-w-full h-fit md:w-[80%] md:mx-auto max-[768px]:w-[80%] max-[768px]:mx-auto grid md:grid-cols-2 grid-cols-1 gap-9 px-4 pb-9 border-b-[1px] border-solid border-[rgba(255,255,255,0.5)] mb-[3rem]">
           <div className=" text-2xl text-white font-semibold">
-            <p className=" after:content-['❤'] after:text-[#fff8a1] after:text-[19px] after:pl-3">
+            <p className=" after:content-['❤'] after:text-[#ffffff] after:text-[19px] after:pl-3">
               The Chisomaga Foundation
             </p>
           </div>
-          <div className=" flex items-center md:justify-end cursor-pointer text-[#fff8a1]">
+          <div className=" flex items-center md:justify-end cursor-pointer text-[#ffffff]">
             <FaTwitter
               size={20}
               className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]"
@@ -100,7 +100,7 @@ const Footer = () => {
           </div>
           <div className=" px-4">
             <h4 className=" text-white text-xl mb-[30px] max-[768px]:mt-9">Learn More</h4>
-            <div className="text-[#fff8a1] ">
+            <div className="text-[#ffffff] ">
               <ul
                 id="unorderedList"
                 className="flex flex-col gap-1 justify-center"
@@ -180,14 +180,14 @@ const Footer = () => {
               <div className=" flex">
                 <img src={hero3} alt="/"  className=" w-[80px] h-[80px] object-cover mr-6"/>
                 <div>
-                  <p className=" text-[#fff8a1] mb-4 ">Supply Drinking Water To The People</p>
+                  <p className=" text-[#ffffff] mb-4 ">Supply Drinking Water To The People</p>
                   <p className=" text-[rgba(255,255,255,0.5)] text-[14px]">November 9, 2022. </p>
                 </div>
               </div>
               <div className=" flex">
                 <img src={hero2} alt="/"  className=" w-[80px] h-[80px] object-cover mr-6"/>
                 <div>
-                  <p className=" text-[#fff8a1] mb-4">Providing Healthy Food For The Children</p>
+                  <p className=" text-[#ffffff] mb-4">Providing Healthy Food For The Children</p>
                   <p className="text-[rgba(255,255,255,0.5)] text-[14px]">December 9, 2022. </p>
                 </div>
               </div>
@@ -307,5 +307,5 @@ export default Footer;
             <FaGoogle size={20}  className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]" />
           </div>
       </div>
-      #fff8a1
+      #ffffff
     </Wrapper> */
