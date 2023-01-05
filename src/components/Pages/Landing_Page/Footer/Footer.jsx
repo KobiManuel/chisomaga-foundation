@@ -33,7 +33,7 @@ const Footer = () => {
       <footer id="contact" className=" max-w-[1100px] mx-auto body-font font-TomatoFont ">
         <header className=" lg:w-full max-w-full h-fit md:w-[80%] md:mx-auto max-[768px]:w-[80%] max-[768px]:mx-auto grid md:grid-cols-2 grid-cols-1 gap-9 px-4 pb-9 border-b-[1px] border-solid border-[rgba(255,255,255,0.5)] mb-[3rem]">
           <div className=" text-2xl text-white font-semibold">
-            <p className=" after:content-['❤'] after:text-[#ffffff] after:text-[19px] after:pl-3">
+            <p className=" after:content-['❤'] after:text-[var(--primary)] after:text-[19px] after:pl-3">
               The Chisomaga Foundation
             </p>
           </div>
