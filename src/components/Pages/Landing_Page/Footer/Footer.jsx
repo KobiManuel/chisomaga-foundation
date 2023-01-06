@@ -11,26 +11,29 @@ import {
 import { IoLocationOutline } from "react-icons/io5";
 import { BiMailSend } from "react-icons/bi";
 import { TiLocationArrow } from "react-icons/ti";
-import hero2 from '../../../../assets/hero2.jpg'
-import hero3 from '../../../../assets/hero3.jpg'
-import instagram from '../../../../assets/instagram.jpg'
-import footer_bg from '../../../../assets/footer_bg.png.webp'
-
-
+import hero2 from "../../../../assets/hero2.jpg";
+import hero3 from "../../../../assets/hero3.jpg";
+import instagram from "../../../../assets/instagram.jpg";
+import footer_bg from "../../../../assets/footer_bg.png.webp";
 
 const Footer = () => {
   return (
-    <Wrapper style={{
-      backgroundImage: 'url('+footer_bg+')',
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-      backgroundPosition: "center center",
-      backgroundAttachment: "fixed",
-      width: "100%",
-      maxWidth: "100%",
-      height: "fit-content"
-  }}>
-      <footer id="contact" className=" max-w-[1100px] mx-auto body-font font-TomatoFont ">
+    <Wrapper
+      style={{
+        backgroundImage: "url(" + footer_bg + ")",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        backgroundAttachment: "fixed",
+        width: "100%",
+        maxWidth: "100%",
+        height: "fit-content",
+      }}
+    >
+      <footer
+        id="contact"
+        className=" max-w-[1100px] mx-auto body-font font-TomatoFont "
+      >
         <header className=" lg:w-full max-w-full h-fit md:w-[80%] md:mx-auto max-[768px]:w-[80%] max-[768px]:mx-auto grid md:grid-cols-2 grid-cols-1 gap-9 px-4 pb-9 border-b-[1px] border-solid border-[rgba(255,255,255,0.5)] mb-[3rem]">
           <div className=" text-2xl text-white font-semibold">
             <p className=" after:content-['❤'] after:text-[var(--primary)] after:text-[19px] after:pl-3">
@@ -99,7 +102,9 @@ const Footer = () => {
             </div>
           </div>
           <div className=" px-4">
-            <h4 className=" text-white text-xl mb-[30px] max-[768px]:mt-9">Learn More</h4>
+            <h4 className=" text-white text-xl mb-[30px] max-[768px]:mt-9">
+              Learn More
+            </h4>
             <div className="text-[#ffffff] ">
               <ul
                 id="unorderedList"
@@ -178,34 +183,60 @@ const Footer = () => {
             <h4 className=" text-white text-xl mb-[30px]">Causes</h4>
             <div className=" flex flex-col  gap-6">
               <div className=" flex">
-                <img src={hero3} alt="/"  className=" w-[80px] h-[80px] object-cover mr-6"/>
+                <img
+                  src={hero3}
+                  alt="/"
+                  className=" w-[80px] h-[80px] object-cover mr-6"
+                />
                 <div>
-                  <p className=" text-[#ffffff] mb-4 ">Supply Drinking Water To The People</p>
-                  <p className=" text-[rgba(255,255,255,0.5)] text-[14px]">November 9, 2022. </p>
+                  <p className=" text-[#ffffff] mb-4 ">
+                    Supply Drinking Water To The People
+                  </p>
+                  <p className=" text-[rgba(255,255,255,0.5)] text-[14px]">
+                    November 9, 2022.{" "}
+                  </p>
                 </div>
               </div>
               <div className=" flex">
-                <img src={hero2} alt="/"  className=" w-[80px] h-[80px] object-cover mr-6"/>
+                <img
+                  src={hero2}
+                  alt="/"
+                  className=" w-[80px] h-[80px] object-cover mr-6"
+                />
                 <div>
-                  <p className=" text-[#ffffff] mb-4">Providing Healthy Food For The Children</p>
-                  <p className="text-[rgba(255,255,255,0.5)] text-[14px]">December 9, 2022. </p>
+                  <p className=" text-[#ffffff] mb-4">
+                    Providing Healthy Food For The Children
+                  </p>
+                  <p className="text-[rgba(255,255,255,0.5)] text-[14px]">
+                    December 9, 2022.{" "}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className=" px-4 lg:mt-0 md:mt-9 max-[768px]:mt-9">
-          <h4 className=" text-white text-xl mb-[30px]">Instagram</h4>
-          <div className=" w-full h-[200px]">
-          <a className=" block" href="https://www.instagram.com/chisomagafoundation/" target="_blank" rel="noreferrer">
-            <div className=" w-full h-[200px]" style={{
-      backgroundImage: 'url('+instagram+')',
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-      width: "100%",
-      height: "200px"
-    }} href="https://www.instagram.com/chisomagafoundation/" target="_blank"></div>
-    </a>
-          </div>
+            <h4 className=" text-white text-xl mb-[30px]">Instagram</h4>
+            <div className=" w-full h-[200px]">
+              <a
+                className=" block"
+                href="https://www.instagram.com/chisomagafoundation/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className=" w-full h-[200px]"
+                  style={{
+                    backgroundImage: "url(" + instagram + ")",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    width: "100%",
+                    height: "200px",
+                  }}
+                  href="https://www.instagram.com/chisomagafoundation/"
+                  target="_blank"
+                ></div>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
