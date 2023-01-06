@@ -27,7 +27,6 @@ const Footer = () => {
       backgroundPosition: "center center",
       backgroundAttachment: "fixed",
       width: "100%",
-      maxWidth: "100%",
       height: "fit-content"
   }}>
       <footer id="contact" className=" max-w-[1100px] mx-auto body-font font-TomatoFont ">
