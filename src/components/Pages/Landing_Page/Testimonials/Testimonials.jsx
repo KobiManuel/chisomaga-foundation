@@ -7,11 +7,11 @@ import Button from "../Button/Button";
 const Testimonials = () => {
   const [visible, setVisible] = useState(3);
   const showMoreOrLessHandler = (event) => {
-    setVisible((prevValue) => prevValue + 3)
+    setVisible((prevValue) => prevValue + 3);
     if (event.target.textContent === "Show Less") {
-      setVisible((prevValue) => prevValue - prevValue + 3)
+      setVisible((prevValue) => prevValue - prevValue + 3);
     }
-  }
+  };
   return (
     <Wrapper id="gallery" bg_color=" !bg-[#f1f6f9]">
       <header
@@ -39,7 +39,12 @@ const Testimonials = () => {
         )}
       </div>
       <div className=" mt-2 mx-auto w-fit">
-      <Button className=" text-white body-font font-TomatoFont !shadow-2xl !z-20" onClick={showMoreOrLessHandler}>{visible === TestimonialsInfo.length ? "Show Less" : "Show More" }</Button>
+        <Button
+          className=" text-white body-font font-TomatoFont !shadow-2xl !z-20"
+          onClick={showMoreOrLessHandler}
+        >
+          {visible === TestimonialsInfo.length ? "Show Less" : "Show More"}
+        </Button>
       </div>
     </Wrapper>
   );
