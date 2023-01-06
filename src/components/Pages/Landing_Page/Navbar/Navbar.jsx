@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import NotificationBar from "./NotificationBar";
 
 const Navbar = () => {
-    //making navbar sticky on scroll
+  //making navbar sticky on scroll
   /*const [sticky, setSticky] = useState(false);
   const stickyScrollHandler = () => {
     if (window.scrollY >= 200) {
@@ -25,9 +25,7 @@ const Navbar = () => {
   return (
     <div className="body-font font-TomatoFont overflow-auto transition duration-500 ease-in">
       <NotificationBar />
-      <div
-        className='bg-white transition-all delay-500 ease-in-out w-full overflow-hidden'
-      >
+      <div className="bg-white transition-all delay-500 ease-in-out w-full overflow-hidden">
         <div className="md:max-w-[1100px] flex bg-white items-center justify-between h-24 mx-auto">
           <div className="px-2">
             <img
@@ -36,7 +34,10 @@ const Navbar = () => {
               alt="/"
             />
           </div>
-          <ul id="unorderedList" className="hidden md:flex gap-7 text-sm text-[var(--blue)] font-medium">
+          <ul
+            id="unorderedList"
+            className="hidden md:flex gap-7 text-sm text-[var(--blue)] font-medium"
+          >
             <li className="border-b-[var(--primary)] border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="hero"
@@ -109,7 +110,7 @@ const Navbar = () => {
           </ul>
           <div onClick={navHandler} className="block md:hidden pr-3">
             {!nav ? (
-               <AiOutlineMenu size={20} className=" cursor-pointer" />
+              <AiOutlineMenu size={20} className=" cursor-pointer" />
             ) : (
               <AiOutlineClose size={20} className=" cursor-pointer" />
             )}
