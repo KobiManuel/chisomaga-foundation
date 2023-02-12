@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className=" flex gap-5 mt-[4rem] max-[532px]:mt-0">
         <Button type="button" className=' text-white !shadow-2xl max-[395px]:!hidden'>Donate now</Button>
-        <a className="block" href="https://form.jotform.com/230422862319554">
+        <a className="block" href="https://form.jotform.com/230421821797558">
          <Button type="button" className={styles.button}>Apply for Grant</Button>
          </a>
         </div>
