@@ -38,7 +38,7 @@ const CausesSection = () => {
   };
 
   return (
-    <Wrapper id="causes" bg_color=" !bg-[#f1f6f9]">
+    <Wrapper id="causes" bg_color=" !bg-[#f1f6f9]" data="fade-left">
       <header
         id="about"
         className="body-font font-TomatoFont w-[570px] max-[580px]:w-[80%] h-[270px] mx-auto text-center"

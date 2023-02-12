@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 
 const Wrapper = (props) => {
   useEffect(() => {
-   Aos.init({ duration: 3000 })
+   Aos.init({ duration: 2000 })
   }, [])
   
   return (

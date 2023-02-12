@@ -17,7 +17,7 @@ const ChangeHumanitySection = () => {
           maxWidth: "85%",
           height: "265px",
         }}
-      >
+      data="fade-up">
         <div className=" max-w-[428.33px] max-h-[105px] pl-8 max-[665px]:pl-0">
           <p className=" capitalize text-white font-semibold text-[35px] max-[665px]:text-[20px]">
             Let's change the world with humanity

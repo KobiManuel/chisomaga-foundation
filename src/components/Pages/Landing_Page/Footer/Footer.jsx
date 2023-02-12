@@ -29,7 +29,7 @@ const Footer = () => {
         maxWidth: "100%",
         height: "fit-content",
       }}
-    >
+    data="flip-left">
       <footer
         id="contact"
         className=" max-w-[1100px] mx-auto body-font font-TomatoFont "

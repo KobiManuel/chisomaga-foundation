@@ -13,7 +13,7 @@ const WelcomeSection = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-    >
+     data="fade-right">
       <section className=" flex md:flex-wrap flex-col md:gap-6 gap-4 justify-center items-center md:flex-row px-4 body-font font-TomatoFont max-w[1100px] mx-auto">
         <div className=" w-[540px] max-[1040px]:w-[80%]  sm:h-[380px]">
           <header>
