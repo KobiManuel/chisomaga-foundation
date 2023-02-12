@@ -11,11 +11,13 @@ import Footer from '../Footer/Footer'
 
 const Home = () => {
   const [nav, setNav] = useState(false);
-  const navHandler = () => {
+  const navvHandler = () => {
+    if (nav === true) {
     setNav(!nav);
+    }
   };
   return (
-    <div className=' overflow-hidden' onClick={navHandler}>
+    <div className=' overflow-hidden' onClick={navvHandler}>
       <Navbar nav={nav} setNav={setNav} />
       <Hero />
       <Activities />
