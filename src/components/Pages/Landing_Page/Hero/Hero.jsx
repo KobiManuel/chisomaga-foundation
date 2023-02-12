@@ -3,9 +3,9 @@ import SimpleSlider from "../../../UI/SimpleSlider";
 import Button from "../Button/Button";
 import styles from '../Button/TransparentBtn.module.css'
 import Typed from 'react-typed';
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 const Hero = () => {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   return (
     <div
       id="hero"
