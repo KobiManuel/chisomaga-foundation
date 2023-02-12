@@ -4,16 +4,10 @@ import { TbHeartHandshake } from "react-icons/tb";
 import { MdOutlineVolunteerActivism } from "react-icons/md";
 import { GiTakeMyMoney } from "react-icons/gi";
 import ActivityCard from "../../../Cards/ActivityCard";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Activities = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [third])
-  
   return (
-    <Wrapper bg_color=" !bg-[#f1f6f9]">
+    <Wrapper bg_color=" !bg-[#f1f6f9]" data="flip-left">
       <header
         id="about"
         className="body-font font-TomatoFont w-[570px] max-[580px]:w-[80%] h-[270px] mx-auto text-center"
