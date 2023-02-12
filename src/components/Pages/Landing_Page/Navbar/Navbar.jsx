@@ -1,10 +1,10 @@
-import { React, useState } from "react";
+import  React from "react";
 import { Link } from "react-scroll";
 import Logo from "../../../../assets/chisomaga_transparent.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import NotificationBar from "./NotificationBar";
 
-const Navbar = () => {
+const Navbar = ({ nav, setNav }) => {
   //making navbar sticky on scroll
   /*const [sticky, setSticky] = useState(false);
   const stickyScrollHandler = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", stickyScrollHandler)*/
   // setting mobile nav
-  const [nav, setNav] = useState(false);
+  //const [nav, setNav] = useState(false);
 
   // closing menu on click
   const navHandler = () => {

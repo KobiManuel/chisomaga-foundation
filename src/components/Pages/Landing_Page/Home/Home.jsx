@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
 import Activities from '../Activities/Activities'
@@ -10,9 +10,13 @@ import CountdownSection from '../CountdownSection/CountdownSection'
 import Footer from '../Footer/Footer'
 
 const Home = () => {
+  const [nav, setNav] = useState(false);
+  const navHandler = () => {
+    setNav(!nav);
+  };
   return (
-    <div className=' overflow-hidden'>
-      <Navbar />
+    <div className=' overflow-hidden' onClick={navHandler}>
+      <Navbar nav={nav} setNav={setNav} />
       <Hero />
       <Activities />
       <WelcomeSection />
