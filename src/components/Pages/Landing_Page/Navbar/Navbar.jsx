@@ -1,4 +1,4 @@
-import  React from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../../../../assets/chisomaga_transparent.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -181,7 +181,7 @@ const Navbar = ({ nav, setNav }) => {
                   News
                 </Link>
               </li>
-              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
+              <li className="!focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
                 <Link
                   to="contact"
                   spy={true}
