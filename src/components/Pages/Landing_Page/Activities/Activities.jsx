@@ -5,6 +5,7 @@ import { MdOutlineVolunteerActivism } from "react-icons/md";
 import { GiTakeMyMoney } from "react-icons/gi";
 import ActivityCard from "../../../Cards/ActivityCard";
 import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Activities = () => {
   return (
