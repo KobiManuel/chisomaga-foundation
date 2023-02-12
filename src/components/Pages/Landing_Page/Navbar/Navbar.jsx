@@ -38,7 +38,7 @@ const Navbar = () => {
             id="unorderedList"
             className="hidden md:flex gap-7 text-sm text-[var(--blue)] font-medium"
           >
-            <li className="border-b-[var(--primary)] border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)] border-b-[var(--primary)] border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="hero"
                 spy={true}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className=" border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)]  border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="about"
                 spy={true}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
-            <li className=" border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)]  border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="causes"
                 spy={true}
@@ -71,7 +71,7 @@ const Navbar = () => {
                 Causes
               </Link>
             </li>
-            <li className=" border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)]  border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="gallery"
                 spy={true}
@@ -82,7 +82,7 @@ const Navbar = () => {
                 People
               </Link>
             </li>
-            <li className="border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="news"
                 spy={true}
@@ -93,7 +93,7 @@ const Navbar = () => {
                 News
               </Link>
             </li>
-            <li className="border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <Link
                 to="contact"
                 spy={true}
@@ -104,7 +104,7 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className="border-b-white border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
+            <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)]  hover:border-b-[var(--primary)] cursor-pointer py-6 transition color ease-in-out delay-150">
               <a href="/"> </a>
             </li>
           </ul>
@@ -126,7 +126,7 @@ const Navbar = () => {
               <img className="w-14 h-14 m-3" src={Logo} alt="/" />
             </div>
             <ul className=" pt-4 uppercase text-sm">
-              <li className=" border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)]  border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
                 <Link
                   to="hero"
                   spy={true}
@@ -137,7 +137,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
                 <Link
                   to="about"
                   spy={true}
@@ -148,7 +148,7 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-              <li className="border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)]  p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)]  p-4 transition color ease-in-out duration-500">
                 <Link
                   to="causes"
                   spy={true}
@@ -159,7 +159,7 @@ const Navbar = () => {
                   Causes
                 </Link>
               </li>
-              <li className="border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)]  p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)]  p-4 transition color ease-in-out duration-500">
                 <Link
                   to="gallery"
                   spy={true}
@@ -170,7 +170,7 @@ const Navbar = () => {
                   People
                 </Link>
               </li>
-              <li className="border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
                 <Link
                   to="news"
                   spy={true}
@@ -181,7 +181,7 @@ const Navbar = () => {
                   News
                 </Link>
               </li>
-              <li className="border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
+              <li className="focus:border-b-[var(--primary)] border-b-white border-b-2 hover:text-[var(--primary)] cursor-pointer hover:border-b-4 hover:border-b-[var(--primary)] p-4 transition color ease-in-out duration-500">
                 <Link
                   to="contact"
                   spy={true}
