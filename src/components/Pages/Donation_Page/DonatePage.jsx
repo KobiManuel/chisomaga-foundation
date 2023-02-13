@@ -1,5 +1,4 @@
 import React from 'react'
-import Wrapper from '../../UI/Wrapper'
 import NotificationBar from '../Landing_Page/Navbar/NotificationBar'
 import { useNavigate } from "react-router-dom";
 import Button from '../Landing_Page/Button/Button';
@@ -10,7 +9,6 @@ const DonatePage = () => {
   return (
     <>
     <NotificationBar />
-       <Wrapper>
        <div className="h-fit bg-gray-300 body-font font-TomatoFont">
         <div className="py-12">
           <div className="max-w-md mx-auto bg-gray-100 shadow-lg rounded-lg  md:max-w-5xl">
@@ -18,7 +16,7 @@ const DonatePage = () => {
               <div className="w-full p-4 px-5 py-5">
                 <div className="md:grid md:grid-cols-3 gap-2 ">
                   <div className="col-span-2 p-5">
-                    <h1 className="text-xl font-medium ">Shopping Cart</h1>
+                    <h1 className="text-xl font-medium ">Donate</h1>
                    
                     <div className="flex justify-between items-center mt-6 pt-6 border-t">
                       <div className="flex items-center">
@@ -149,8 +147,6 @@ const DonatePage = () => {
           </div>
         </div>
       </div>
-
-       </Wrapper>
     </>
   )
 }
