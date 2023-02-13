@@ -26,7 +26,7 @@ const ChangeHumanitySection = () => {
           </p>
         </div>
         <div className=" w-fit pr-8 max-[665px]:pr-0 max-[410px]:hidden">
-          <Button type="button" className={styles.button} onClick={() => navigate=("/donate")}>
+          <Button type="button" className={styles.button}  onClick={() => navigate("/donate")}>
             Donate
           </Button>
         </div>
