@@ -1,14 +1,17 @@
 import React from 'react'
 import Wrapper from '../../UI/Wrapper'
 import NotificationBar from '../Landing_Page/Navbar/NotificationBar'
+import { useNavigate } from "react-router-dom";
+import Button from '../Landing_Page/Button/Button';
 
 
 const DonatePage = () => {
+  const navigate = useNavigate();
   return (
     <>
     <NotificationBar />
        <Wrapper>
-       <div className="h-fit bg-gray-300 body-font font-poppins">
+       <div className="h-fit bg-gray-300 body-font font-TomatoFont">
         <div className="py-12">
           <div className="max-w-md mx-auto bg-gray-100 shadow-lg rounded-lg  md:max-w-5xl">
             <div className="md:flex ">
@@ -22,7 +25,7 @@ const DonatePage = () => {
                         <i className="fa fa-arrow-left text-sm pr-2"></i>
                         <span
                           className="text-md  font-medium text-[var(--primary)] cursor-pointer hover:text-opacity-75"
-                          onClick={() => navigate("/home")}
+                          onClick={() => navigate("/")}
                         >
                           Go Back To Home
                         </span>
@@ -138,7 +141,7 @@ const DonatePage = () => {
                       </div>
                     </div>
 
-                    <Button className=" !w-full">checkout</Button>
+                    <Button className=' text-white !shadow-2xl !w-full'>checkout</Button>
                   </div>
                 </div>
               </div>
