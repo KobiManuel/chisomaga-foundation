@@ -153,7 +153,7 @@ const DonatePage = () => {
       </div>
                   </div>     
                     <div className="flex justify-between items-center mt-6 pt-6 border-t">
-                      <div className="flex items-center gap-1">
+                      <div className="md:flex items-center gap-1 hidden ">
                         <AiOutlineArrowLeft size={20} className="text-[var(--primary)] "/>
                         <span
                           className="text-md  font-medium text-[var(--primary)] cursor-pointer hover:text-opacity-75"
@@ -167,7 +167,7 @@ const DonatePage = () => {
                         <span className="text-sm font-medium text-gray-400 mr-1">
                           Total Donation amount:
                         </span>
-                        <span className="text-lg font-bold text-gray-800 ">
+                        <span className="text-sm font-bold text-gray-800 ">
                           $
                         </span>
                       </div>
@@ -273,7 +273,7 @@ const DonatePage = () => {
                       </div>
                     </div>
 
-                    <Button className=' text-white !shadow-2xl !w-full'>checkout</Button>
+                    <Button className=' text-white !shadow-2xl !w-full'>Pay Now</Button>
                   </div>
                 </div>
               </div>
