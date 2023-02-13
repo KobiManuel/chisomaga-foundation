@@ -2,6 +2,9 @@ import React from 'react'
 import NotificationBar from '../Landing_Page/Navbar/NotificationBar'
 import { useNavigate } from "react-router-dom";
 import Button from '../Landing_Page/Button/Button';
+import child from "../../../assets/hero3.jpg"
+import hero from "../../../assets/hero.jpg"
+import hero2 from "../../../assets/hero2.jpg"
 
 
 const DonatePage = () => {
@@ -17,7 +20,128 @@ const DonatePage = () => {
                 <div className="md:grid md:grid-cols-3 gap-2 ">
                   <div className="col-span-2 p-5">
                     <h1 className="text-xl font-medium ">Donate</h1>
-                   
+                 <div>
+                 <div className="flex justify-between items-center mt-6 pt-6 border-b  border-b-gray-200">
+        <div className="flex  items-center">
+          <img alt="/" src={child} width="80" className="rounded-full " />
+
+          <div className="flex flex-col ml-3">
+            <span className="md:text-md font-medium capitalize">
+              Feed the children
+            </span>
+            <span className="text-xs font-light text-gray-400">#1245</span>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <div className="pr-8 flex ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
+
+          <div className="pr-8 ">
+            <span className="text-xs font-medium">
+              $1,000
+            </span>
+          </div>
+          <div>
+            <i className="fa fa-close text-xs font-medium"></i>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-between items-center mt-6 pt-6 border-b  border-b-gray-200">
+        <div className="flex  items-center">
+          <img alt="/" src={hero} width="80" className="rounded-full " />
+
+          <div className="flex flex-col ml-3">
+            <span className="md:text-md font-medium capitalize">
+              Feed the children
+            </span>
+            <span className="text-xs font-light text-gray-400">#1245</span>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <div className="pr-8 flex ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
+
+          <div className="pr-8 ">
+            <span className="text-xs font-medium">
+              $1,000
+            </span>
+          </div>
+          <div>
+            <i className="fa fa-close text-xs font-medium"></i>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-between items-center mt-6 pt-6 border-b  border-b-gray-200">
+        <div className="flex  items-center">
+          <img alt="/" src={hero2} width="80" className="rounded-full " />
+
+          <div className="flex flex-col ml-3">
+            <span className="md:text-md font-medium capitalize">
+              Feed the children
+            </span>
+            <span className="text-xs font-light text-gray-400">#1245</span>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <div className="pr-8 flex ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
+
+          <div className="pr-8 ">
+            <span className="text-xs font-medium">
+              $1,000
+            </span>
+          </div>
+          <div>
+            <i className="fa fa-close text-xs font-medium"></i>
+          </div>
+        </div>
+      </div>
+                  </div>     
                     <div className="flex justify-between items-center mt-6 pt-6 border-t">
                       <div className="flex items-center">
                         <i className="fa fa-arrow-left text-sm pr-2"></i>
