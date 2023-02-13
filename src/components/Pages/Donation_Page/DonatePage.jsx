@@ -34,13 +34,25 @@ const DonatePage = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="pr-8 flex ">
-            
-            
-            </div>
+          <div className="pr-8 flex  max-[453px]:pr-0 ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
 
-          <div className="pr-8 ">
-            <span className="text-xs font-medium">
+          <div className="pr-8 max-[453px]:pr-0 ">
+            <span className="text-xs font-medium max-[453px]:hidden">
               $1,000
             </span>
           </div>
@@ -62,13 +74,25 @@ const DonatePage = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="pr-8 flex ">
-            
-            
-            </div>
+          <div className="pr-8 flex  max-[453px]:pr-0 ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
 
-          <div className="pr-8 ">
-            <span className="text-xs font-medium">
+          <div className="pr-8 max-[453px]:pr-0 ">
+            <span className="text-xs font-medium max-[453px]:hidden">
               $1,000
             </span>
           </div>
@@ -90,13 +114,25 @@ const DonatePage = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="pr-8 flex ">
-            
-            
-            </div>
+          <div className="pr-8 flex  max-[453px]:pr-0 ">
+            <button
+              className="font-semibold"
+            >
+              -
+            </button>
+            <input
+              type="text"
+              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
+            />
+            <button
+              className="font-semibold"
+            >
+              +
+            </button>
+          </div>
 
-          <div className="pr-8 ">
-            <span className="text-xs font-medium">
+          <div className="pr-8 max-[453px]:pr-0 ">
+            <span className="text-xs font-medium max-[453px]:hidden">
               $1,000
             </span>
           </div>
