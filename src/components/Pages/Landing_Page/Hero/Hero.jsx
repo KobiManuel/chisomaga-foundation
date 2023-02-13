@@ -3,9 +3,9 @@ import SimpleSlider from "../../../UI/SimpleSlider";
 import Button from "../Button/Button";
 import styles from '../Button/TransparentBtn.module.css'
 import Typed from 'react-typed';
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <div
       id="hero"
@@ -25,7 +25,9 @@ const Hero = () => {
           </p>
         </div>
         <div className=" flex gap-5 mt-[4rem] max-[532px]:mt-0">
+          <a className="block" onClick={() =>navigate("/donate")}>
         <Button type="button" className=' text-white !shadow-2xl max-[395px]:!hidden'>Donate now</Button>
+        </a>
         <a className="block" href="https://form.jotform.com/230426555559563">
          <Button type="button" className={styles.button}>Apply for Grant</Button>
          </a>
