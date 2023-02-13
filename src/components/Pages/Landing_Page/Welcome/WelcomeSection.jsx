@@ -13,7 +13,8 @@ const WelcomeSection = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-     data="fade-right">
+      data="fade-right"
+    >
       <section className=" flex md:flex-wrap flex-col md:gap-6 gap-4 justify-center items-center md:flex-row px-4 body-font font-TomatoFont max-w[1100px] mx-auto">
         <div className=" w-[540px] max-[1040px]:w-[80%]  sm:h-[380px]">
           <header>
@@ -23,13 +24,14 @@ const WelcomeSection = () => {
           </header>
           <div className=" mt-12">
             <p className=" text-white font-[100]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris
-              quis aliquam. Integer accumsan sodales odio, id tempus velit
-              ullamcorper id. Quisque at erat eu libero consequat tempus.
-              Quisque molestie convallis tempus. Ut semper purus metus, a
-              euismod sapien sodales ac. Duis viverra eleifend fermentum.
+              The Chisomaga Foundation is a non-profit organization built to
+              provide philantropic opportunities to less privileged people and
+              empower them to live purposeful lives. We believe that kindness is
+              the greatest gift you can give to your fellow man and we take on
+              every project with that goal in mind. We have been involved in
+              multiple charity causes since our inception and we have a wondeful
+              team of volunteers and humanitarian enthusiasts who make sure we
+              give the optimum amount of attention to all our causes.
             </p>
           </div>
           <div className=" mt-12">
