@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTwitter, FaFacebook, FaInstagram, FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Btn from "../Button/Btn";
 
 const NotificationBar = () => {
@@ -20,7 +21,10 @@ const NotificationBar = () => {
             <FaGoogle className="  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
           </div>
           <div className=" bg-gray-50 w-70 -translate-y-5 mt-0.4 w-fit h-fit">
+            <Link to="/donate">
             <Btn type="button">Donate Now</Btn>
+            </Link>
+            
           </div>
         </div>
       </div>

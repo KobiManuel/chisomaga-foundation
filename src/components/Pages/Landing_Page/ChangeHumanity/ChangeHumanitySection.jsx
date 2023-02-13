@@ -3,7 +3,9 @@ import Wrapper from "../../../UI/Wrapper";
 import welcome_bg from "../../../../assets/hero6.jpg";
 import Button from "../Button/Button";
 import styles from "../Button/TransparentBtn.module.css";
+import { useNavigate } from "react-router-dom";
 const ChangeHumanitySection = () => {
+  const navigate = useNavigate();
   return (
     <Wrapper>
       <div
@@ -24,7 +26,7 @@ const ChangeHumanitySection = () => {
           </p>
         </div>
         <div className=" w-fit pr-8 max-[665px]:pr-0 max-[410px]:hidden">
-          <Button type="button" className={styles.button}>
+          <Button type="button" className={styles.button} onClick={() => navigate=("/donate")}>
             Donate
           </Button>
         </div>
