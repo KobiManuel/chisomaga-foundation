@@ -40,22 +40,22 @@ const Footer = () => {
               The Chisomaga Foundation
             </p>
           </div>
-          <div className=" flex items-center md:justify-end cursor-pointer text-[#ffffff]">
+          <div className=" flex items-center md:justify-end text-[#ffffff]">
             <FaTwitter
               size={20}
-              className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]"
+              className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]  cursor-pointer"
             />
             <FaFacebook
               size={20}
-              className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]"
+              className=" w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)] cursor-pointer"
             />
             <FaInstagram
               size={20}
-              className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]"
+              className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)] cursor-pointer"
             />
             <FaGoogle
               size={20}
-              className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)]"
+              className="w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--primary)] cursor-pointer"
             />
           </div>
         </header>
