@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Button from '../Landing_Page/Button/Button';
 import child from "../../../assets/hero3.jpg"
 import hero from "../../../assets/hero.jpg"
-import hero2 from "../../../assets/hero2.jpg"
+import hero2 from "../../../assets/hero4.jpg"
 
 
 const DonatePage = () => {
@@ -35,21 +35,9 @@ const DonatePage = () => {
 
         <div className="flex justify-center items-center">
           <div className="pr-8 flex ">
-            <button
-              className="font-semibold"
-            >
-              -
-            </button>
-            <input
-              type="text"
-              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
-            />
-            <button
-              className="font-semibold"
-            >
-              +
-            </button>
-          </div>
+            
+            
+            </div>
 
           <div className="pr-8 ">
             <span className="text-xs font-medium">
@@ -67,7 +55,7 @@ const DonatePage = () => {
 
           <div className="flex flex-col ml-3">
             <span className="md:text-md font-medium capitalize">
-              Feed the children
+              Empower and Support Farmers
             </span>
             <span className="text-xs font-light text-gray-400">#1245</span>
           </div>
@@ -75,21 +63,9 @@ const DonatePage = () => {
 
         <div className="flex justify-center items-center">
           <div className="pr-8 flex ">
-            <button
-              className="font-semibold"
-            >
-              -
-            </button>
-            <input
-              type="text"
-              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
-            />
-            <button
-              className="font-semibold"
-            >
-              +
-            </button>
-          </div>
+            
+            
+            </div>
 
           <div className="pr-8 ">
             <span className="text-xs font-medium">
@@ -107,7 +83,7 @@ const DonatePage = () => {
 
           <div className="flex flex-col ml-3">
             <span className="md:text-md font-medium capitalize">
-              Feed the children
+              Build new Classrooms
             </span>
             <span className="text-xs font-light text-gray-400">#1245</span>
           </div>
@@ -115,21 +91,9 @@ const DonatePage = () => {
 
         <div className="flex justify-center items-center">
           <div className="pr-8 flex ">
-            <button
-              className="font-semibold"
-            >
-              -
-            </button>
-            <input
-              type="text"
-              className="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-2 mx-2"
-            />
-            <button
-              className="font-semibold"
-            >
-              +
-            </button>
-          </div>
+            
+            
+            </div>
 
           <div className="pr-8 ">
             <span className="text-xs font-medium">
