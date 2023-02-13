@@ -13,10 +13,10 @@ const Hero = () => {
     >
       <div className=" absolute top-[25%] ml-20 max-[786px]:ml-[5px] max-w-[1100px] max-[712px]:top-[10%] flex flex-col z-40 hero_overlay leading-[5rem]  max-[395px]:text-center max-[395px]:w-[100%] max-[395px]:items-center max-[395px]:justify-center">
         <header className=" max-[330px]:hidden">
-          <h1 className=" text-[102px] max-[562px]:text-[80px] font-medium text-white max-[435px]:text-[60px] max-[435px]:leading-[1rem] ">
+          <h1 className=" text-[102px] max-[562px]:text-[80px] font-medium text-white max-[435px]:text-[60px] max-[435px]:leading-[1rem]  max-[414px]:text-[40px] ">
             Donate
           </h1>
-          <h4 className="text-[50px] max-[562px]:text-[40px] font-medium text-white">
+          <h4 className="text-[50px] max-[562px]:text-[40px] font-medium text-white max-[414px]:text-[30px]">
             4{" "}
             <Typed
               strings={[
