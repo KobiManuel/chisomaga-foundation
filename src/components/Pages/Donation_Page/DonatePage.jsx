@@ -5,6 +5,7 @@ import Button from '../Landing_Page/Button/Button';
 import child from "../../../assets/hero3.jpg"
 import hero from "../../../assets/hero.jpg"
 import hero2 from "../../../assets/hero4.jpg"
+import {AiOutlineArrowLeft} from "react-icons/ai"
 
 
 const DonatePage = () => {
@@ -13,6 +14,15 @@ const DonatePage = () => {
     <>
     <NotificationBar />
        <div className="h-fit bg-gray-300 body-font font-TomatoFont">
+       <div className="flex flex-row items-center gap-1 md:hidden sm:block pt-6 pl-2 ">
+                        <AiOutlineArrowLeft size={20} className="text-[var(--primary)] "/>
+                        <span
+                          className="text-md  font-medium text-[var(--primary)] cursor-pointer hover:text-opacity-75"
+                          onClick={() => navigate("/")}
+                        >
+                          Go Back To Home
+                        </span>
+                      </div>
         <div className="py-12">
           <div className="max-w-md mx-auto bg-gray-100 shadow-lg rounded-lg  md:max-w-5xl">
             <div className="md:flex ">
@@ -143,8 +153,8 @@ const DonatePage = () => {
       </div>
                   </div>     
                     <div className="flex justify-between items-center mt-6 pt-6 border-t">
-                      <div className="flex items-center">
-                        <i className="fa fa-arrow-left text-sm pr-2"></i>
+                      <div className="flex items-center gap-1">
+                        <AiOutlineArrowLeft size={20} className="text-[var(--primary)] "/>
                         <span
                           className="text-md  font-medium text-[var(--primary)] cursor-pointer hover:text-opacity-75"
                           onClick={() => navigate("/")}
