@@ -19,7 +19,7 @@ const Activities = () => {
           We are on a mission to help the helpless
         </h2>
       </header>
-      <div className="body-font font-TomatoFont max-w-[1100px] mx-auto flex flex-col lg:flex-row max-[1040px]:flex-col justify-center items-center gap-7 md:px-6 cursor-pointer">
+      <div className="body-font font-TomatoFont max-w-[1100px] mx-auto flex flex-col lg:flex-row max-[1040px]:flex-col justify-center items-center gap-7 md:px-6">
         <ActivityCard>
           <figure className="mb-4 p-3 rounded-full bg-white">
             <TbHeartHandshake size={70} color="var(--primary)" />
