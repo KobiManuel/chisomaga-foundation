@@ -11,7 +11,7 @@ export const TestimonialsInfo = [{
   occupation: " student",
 },
 {
-    subtitle: " I needed a laptop to start up my tech career and become a graphic designer. Chisomaga Foundation helped me by buying me a laptop. I'm so happy and fulfileld!",
+    subtitle: " I needed a laptop to start up my tech career and become a graphic designer. Chisomaga Foundation helped me by buying me a laptop. I'm so happy and fulfilled!",
     image: secondImage,
     personsName: "Obukwelu Isaac",
     occupation: " freelancer",
