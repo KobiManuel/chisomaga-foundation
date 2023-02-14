@@ -76,7 +76,7 @@ const Footer = () => {
                     {" "}
                     <FaPhoneAlt size={15} />{" "}
                   </span>
-                  <span> +234 37 285 562</span>
+                  <span> +234 703 728 5562</span>
                 </li>
                 <li className=" flex items-center gap-6">
                   <span>

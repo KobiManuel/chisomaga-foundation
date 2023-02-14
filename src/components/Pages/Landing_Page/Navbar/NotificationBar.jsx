@@ -14,11 +14,11 @@ const NotificationBar = () => {
           <p className="text-white text-sm pt-0  px-3 h-5 text-center border-r-2  max-[883px]:hidden">
             Email: thechisomagafoundation@gmail.com
           </p>
-          <div className="flex justify-end gap-5 pl-3 cursor-pointer text-white">
-            <FaTwitter className="  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
-            <FaFacebook className="  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
-            <FaInstagram className="  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
-            <FaGoogle className="  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
+          <div className="flex justify-end gap-5 pl-3 text-white">
+            <FaTwitter className=" cursor-pointer  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
+            <FaFacebook className="  cursor-pointer max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
+            <FaInstagram className="  cursor-pointer max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
+            <FaGoogle className=" cursor-pointer  max-[883px]:hidden w-9 transform hover:-scale-x-100 transition duration-500 ease-in-out hover:text-[var(--blue)]" />
           </div>
           <div className=" bg-gray-50 w-70 -translate-y-5 mt-0.4 w-fit h-fit">
             <Link to="/donate">
