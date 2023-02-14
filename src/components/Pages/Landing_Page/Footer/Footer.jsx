@@ -69,7 +69,7 @@ const Footer = () => {
                     {" "}
                     <IoLocationOutline size={20} />{" "}
                   </span>
-                  <span>203 Fake St. Mountain View, Lekki, Lagos, Nigeria</span>
+                  <span>203 Rain St. Mountain View, Lekki, Lagos, Nigeria</span>
                 </li>
                 <li className=" flex items-center gap-6">
                   <span>
